@@ -21,7 +21,7 @@ namespace WebApp.UITest
             // Allow for web app compilation and startup post deployment 
             _webDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(15);
 
-            _webAppBaseURL = "https://metliftdelete.scm..azurewebsites.net/";
+            _webAppBaseURL = "https://qametlift.azurewebsites.net";
         }
 
         [ClassCleanup()]
